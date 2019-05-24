@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #c5b358 ;
+}
+</style>
+</head>
+
+<ul>
+  <li><a class="active" href="final.htm">Home</a></li>
+  <li><a href="roster.htm">The team</a></li>
+  <li><a href="prices.htm">Schedule</a></li>
+  <li><a href="mail.htm">Subscribe for more</a></li>
+</ul>
+<br>
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br>
+  Email:<br>
+  <input type="text" name="email" value="">
+  <br><br>
+  <button type="button" onclick="alert('You are now signed up to recieve news about us. Thank you!')">Submit!</button>
+</form> 
+
+
+</body>
+</html>
