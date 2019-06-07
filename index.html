@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Sammy Hernandez</title>
   <head> <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +32,18 @@ li a {
 li a:hover:not(.active) {
   background-color: #111;
 }
-
+ div {
+  width: 100px;
+  height: 250px;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 400px}
+}	  
+#div3 {animation-timing-function: ease-in}
 
 </style>
 </head>
@@ -44,7 +56,7 @@ li a:hover:not(.active) {
 <li><a href = "Final/final.htm">Westview All Stars</a></li>
 </ul>
 <br>
-<center><img src="logo.jpg" height="250px";></center>
+	<div class="div3"><img src="logo.jpg" height="250px";></div>
 <br>
 <h1> About me </h1>
 <div class="container">
